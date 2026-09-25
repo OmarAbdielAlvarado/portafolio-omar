@@ -43,5 +43,9 @@ Español (nativo) · Inglés (fluido escrito y hablado)
 - Implemented card-network compliance automation (Visa/Mastercard prohibited-terms
   rewriting, ES/EN) for a production VOD platform. Dockerized, rules-as-data.
 
+## COMPLIANCE
+- Implemented card-network compliance automation (Visa/Mastercard prohibited-terms
+  rewriting, ES/EN) for a production VOD platform. Dockerized, rules-as-data.
+
 ## DISPONIBILIDAD
 Remoto, inmediata, tiempo completo o por proyecto.
