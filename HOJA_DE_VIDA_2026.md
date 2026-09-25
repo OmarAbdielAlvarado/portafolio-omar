@@ -40,12 +40,16 @@ XTTS/coqui · demucs · Ollama · FFmpeg · pandas · Linux server admin · OSIN
 Español (nativo) · Inglés (fluido escrito y hablado)
 
 ## COMPLIANCE
-- Implemented card-network compliance automation (Visa/Mastercard prohibited-terms
-  rewriting, ES/EN) for a production VOD platform. Dockerized, rules-as-data.
+- Ran a multi-platform VOD pipeline (3 sites) in production: pulled content from a
+  remote Windows server, published per-site with platform-specific parameters, and
+  enforced Visa/Mastercard prohibited-content policies (ES/EN rewriting, rules-as-data).
+  Dockerized. Cut a 9-to-5 manual publishing workflow down to minutes.
 
 ## COMPLIANCE
-- Implemented card-network compliance automation (Visa/Mastercard prohibited-terms
-  rewriting, ES/EN) for a production VOD platform. Dockerized, rules-as-data.
+- Ran a multi-platform VOD pipeline (3 sites) in production: pulled content from a
+  remote Windows server, published per-site with platform-specific parameters, and
+  enforced Visa/Mastercard prohibited-content policies (ES/EN rewriting, rules-as-data).
+  Dockerized. Cut a 9-to-5 manual publishing workflow down to minutes.
 
 ## DISPONIBILIDAD
 Remoto, inmediata, tiempo completo o por proyecto.

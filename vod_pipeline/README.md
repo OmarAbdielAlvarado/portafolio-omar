@@ -1,8 +1,12 @@
-# compliance-rewriter (vod-pipeline)
-Production component of an automated VOD pipeline (2026): rewrites video SEO
-metadata (titles/descriptions/tags, Spanish + English) to enforce Visa &
-Mastercard content policies (prohibited-terms lists) before publishing.
-Rules are data, not code -> new networks/locales without touching logic.
-Dockerized Flask blueprint. Ran in production, single-server.
-Run: docker build -t cr . && docker run -p 8000:8000 -v $PWD/data:/data cr
-Test: curl localhost:8000/api/compliance-seo/scene_001
+# vod-pipeline — multi-platform VOD publishing (2026, personal project)
+Automated pipeline that ran 3 adult-VOD platforms in production from one machine:
+- Content pulled from a remote Windows server (SMB/rsync) to local storage.
+- Per-platform publisher scripts: each site had its own size specs, SEO rules
+  and API parameters (Flask/Selenium automation, Dockerized).
+- Compliance layer: rewrites ES/EN metadata to enforce Visa & Mastercard
+  prohibited-content policies before publishing (rules-as-data, in this folder).
+- Operator workload reduced from hours/day (9-to-5 manual publishing) to minutes.
+
+## Contents
+- compliance_rewriter.py + banned_terms.json + app.py + Dockerfile
+  -> card-network policy enforcement (Blueprint, Dockerized Flask).
