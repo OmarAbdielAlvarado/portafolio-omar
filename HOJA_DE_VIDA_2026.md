@@ -39,5 +39,9 @@ XTTS/coqui · demucs · Ollama · FFmpeg · pandas · Linux server admin · OSIN
 ## IDIOMAS
 Español (nativo) · Inglés (fluido escrito y hablado)
 
+## COMPLIANCE
+- Implemented card-network compliance automation (Visa/Mastercard prohibited-terms
+  rewriting, ES/EN) for a production VOD platform. Dockerized, rules-as-data.
+
 ## DISPONIBILIDAD
 Remoto, inmediata, tiempo completo o por proyecto.
