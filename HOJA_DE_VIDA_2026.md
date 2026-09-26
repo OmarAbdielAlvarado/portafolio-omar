@@ -1,5 +1,5 @@
 # OMAR ALVARADO LUNA
-Colima, México | Remoto | [tel/correo] | GitHub: [usuario]
+Colima, México | Remoto | consultoriashalom@gmail.com | GitHub: OmarAbdielAlvarado
 
 ## PERFIL
 Ingeniero de datos autodidacta, 25+ años en Linux (desde X11 configurado a mano, 1996).
